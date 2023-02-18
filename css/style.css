@@ -1,0 +1,197 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: antiquewhite;
+  margin-top: 1%;
+  margin-bottom: 1%;
+ 
+}
+main{
+  margin-right: 10%;
+  margin-left: 10%;
+ 
+}
+h1,
+h2,
+p {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0%;
+}
+#navBar h1 {
+  display: flex;
+  width: 25%;
+  font-weight: 500;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(235, 170, 229);
+  color: #0e0d0e;
+}
+#navigation {
+  display: flex;
+  width: 80%;
+  align-items: right;
+  margin: 2.5%;
+  justify-content: space-evenly;
+  background-color: rgb(235, 170, 229);
+  color: bisque;
+}
+#navigation li {
+  cursor: pointer;
+  text-decoration: none;
+}
+header {
+  background-color: rgb(235, 170, 229);
+}
+
+/*banner */
+.home {
+  display: flex;
+  height: 160px;
+  margin-bottom: 10px;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  background-image: url(../images/kwiat.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+#hero-content {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 80px;
+  margin-bottom: 5px;
+  padding: 0px 5px;
+  color: #f0ecef;
+}
+
+.section-title {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*  -- Contact --*/
+/* -- Work --*/
+.work_container {
+  display: grid;
+  column-gap: 10px;
+  grid-gap: 10px;
+}
+.work__img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+#whitepic {
+  grid-column: 1 / span 3;
+}
+#whitepic img {
+  width: 100%;
+
+ 
+}
+
+.work__img img {
+  transition: 1s;
+  cursor: pointer;
+}
+.work__img img:hover {
+  transform: scale(1.1);
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #d184cb;
+  width: 100%;
+  transition: 0.5s ease;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+/*--contact --*/
+.contact_container {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px 0;
+
+ 
+}
+/* --footer --*/
+.footer {
+  background-color: #a1a4a7;
+  color: rgb(235, 170, 229);
+  text-align: center;
+  font-weight: medium;
+  padding: 1rem 0;
+}
+/*mmedia*/
+@media screen and (max-width: 400px) {
+  #navBar {
+    flex-direction: column;
+  }
+  .overlay {
+    font-size: 10px;
+    padding: 20px;
+    text-align: left;
+}
+}
+
+
+@media screen and (max-width: 320px) {
+  #navigation {
+    display: table-column;
+  }
+  #hero-content {
+   margin-right: 0px;
+  }
+.contact_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0;
+}
+.overlay {
+font-size: 10px;
+padding: 20px;
+text-align: left;
+}
+
+}
