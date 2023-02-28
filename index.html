@@ -18,29 +18,32 @@
 
     <title>Sandra // Web Developer</title>
     <!--two CSS -->
-    <link href="./css/another.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./css/style.css" type="text/css" rel="stylesheet" />
+    
   </head>
 
   <body>
     <header>
       <nav class="navbar navbar-light" style="background-color: #f08bd8">
         <a>Portfolio</a>
-
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a></li>
+        <a class="nav-link" href="#work">Work</a></li>
+        <a class="nav-link" href="#contact">Contact Me</a></li>
+        </ul>
       </nav>
     </header>
 
-    <section class="hero-banner" id="home">
-      <div class="home">
-        <div id="hero-content">
-          <h1>
-            Hi, Welcome to my website! <br /><span>My name is Sandra</span
-            ><br />
-          </h1>
+    <section class="jumbotron jumbotron-fluid" style="background-image: url('./images/kwiat.jpg')">
+      <div class="container">
+          <h1 class="display-4">
+            Hi, Welcome to my website! </h1>
+            <p class="lead">
+            My name is Sandra
+        
           <img src="./images/avatar.png" alt="logo" width="110" height="90" />
+          </p>
         </div>
       </div>
     </section>
