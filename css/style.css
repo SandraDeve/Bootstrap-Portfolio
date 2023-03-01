@@ -1,3 +1,18 @@
 .card-img-top {
   height: 400px;
 }
+.img-thumbnails {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+}
+a {
+  color: rgb(122, 5, 101);
+}
+a:hover {
+  color: #141414;
+  background-color: rgb(145, 142, 145);
+}
+.nav-item:hover {
+  box-shadow: 3px 3px 6px rgba(245, 229, 158, 0.959);
+}
