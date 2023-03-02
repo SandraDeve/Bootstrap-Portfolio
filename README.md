@@ -6,7 +6,9 @@ The landscape of web development has been transformed by the emergence of Fronte
 
 Description
 
-Bootstrap Portfolio is a repository that uses Bootstrap 4 to demonstrate the capabilities of this popular framework. The website includes a range of my web applications, as well as my skills, section about me and contact information. With its vast set of tools and resources, Bootstrap provides an excellent platform for showcasing portfolio work.
+The main purpose of this project is to build my portfolio using the Bootstrap CSS Framework, to help me to understand and apply my skills of using Bootstrap to the future projects.
+
+Bootstrap Portfolio is a repository that uses Bootstrap 4 to demonstrate the capabilities of this popular framework. This project includes a range of my web applications, favourite resources, as well as my skills, section about me and contact information. Bootstrap with its vast set of tools and resources - provides an excellent platform for showcasing portfolio work.
 
 Usage
 
