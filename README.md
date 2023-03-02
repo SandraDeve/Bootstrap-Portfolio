@@ -18,7 +18,7 @@ The URL of your previously deployed portfolio:
 
 https://sandradeve.github.io/Portfolio-Bootcamp/
 
-The URL of the deployed application:
+The URL of the deployed Bootstrap portfolio:
 
 https://sandradeve.github.io/Bootstrap-Portfolio/
 
