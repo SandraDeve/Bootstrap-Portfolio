@@ -17,22 +17,22 @@ a:hover {
   box-shadow: 3px 3px 6px rgba(245, 229, 158, 0.959);
 }
 .row {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aboutandcontact {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .header {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: antiquewhite;
 }
 .cont {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: antiquewhite;
 }
 .footer {
